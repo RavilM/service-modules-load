@@ -13,6 +13,7 @@ import * as reduxCoreModules from '@wildberries/redux-core-modules';
 import * as servicePlatform from '@wildberries/service-platform';
 import * as serviceUser from '@wildberries/service-user';
 import * as i18nextUtils from '@wildberries/i18next-utils';
+// import * as notifications from "@wildberries/notifications"
 import * as i18next from 'i18next';
 import * as serviceProducts from '../index';
 
