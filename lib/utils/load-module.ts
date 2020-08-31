@@ -1,6 +1,6 @@
 import { IResponse } from '@mihanizm56/fetch-api';
+import { loadModuleRequest } from '../api/load-module';
 import { requireModule } from './require-module';
-import { loadModuleRequest } from "../api/load-module";
 
 const cachedScripts = new Map();
 

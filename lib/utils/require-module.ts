@@ -13,7 +13,7 @@ import * as reduxCoreModules from '@wildberries/redux-core-modules';
 import * as servicePlatform from '@wildberries/service-platform';
 import * as serviceUser from '@wildberries/service-user';
 import * as i18nextUtils from '@wildberries/i18next-utils';
-// import * as notifications from "@wildberries/notifications"
+import * as notifications from '@wildberries/notifications';
 import * as i18next from 'i18next';
 import * as serviceProducts from '../index';
 
@@ -33,10 +33,11 @@ const modules: any = {
   '@wildberries/service-products': serviceProducts,
   '@wildberries/service-user': serviceUser,
   '@wildberries/i18next-utils': i18nextUtils,
+  '@wildberries/notifications': notifications,
   '@hapi/joi': Joi,
   i18next,
 };
 
 // productSysName may be user in the future
-export const requireModule = (productSysName: string, moduleId: string): any => modules[moduleId];
-
+export const requireModule = (productSysName: string, moduleId: string): any =>
+  modules[moduleId];
