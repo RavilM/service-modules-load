@@ -44,7 +44,7 @@ export const loadModule = ({ name, staticURL, jsUrl }: ParamsType) => {
           exports: {},
         };
 
-        extensionFn(module.exports, requireModule, module);
+        extensionFn(module.exports, requireModule.bind(null, name), module);
 
         resolve(module.exports);
       } catch (error) {
