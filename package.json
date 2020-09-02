@@ -1,6 +1,6 @@
 {
   "name": "@wildberries/service-modules-load",
-  "version": "0.0.6-beta.2",
+  "version": "0.0.6-beta.3",
   "description": "loader for modules",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
   "dependencies": {
     "@hapi/joi": "17.1.1",
     "@mihanizm56/fetch-api": "3.3.16-beta.3",
-    "@wildberries/i18next-utils": "0.0.8",
+    "@wildberries/i18next-utils": "0.0.9-beta.3",
     "@wildberries/notifications": "1.0.4",
     "@wildberries/redux-core-modules": "0.0.33-beta.3",
     "@wildberries/service-platform": "0.0.1-beta.1",
