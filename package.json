@@ -15,6 +15,8 @@
   "dependencies": {
     "@hapi/joi": "17.1.1",
     "@mihanizm56/fetch-api": "3.3.16-beta.6",
+    "@ravilm/databus": "0.0.1-alpha.5",
+    "@ravilm/databus-react": "0.0.1-alpha.6",
     "@wildberries/i18next-utils": "0.0.9",
     "@wildberries/notifications": "1.0.4",
     "@wildberries/redux-core-modules": "0.0.33-beta.9",
